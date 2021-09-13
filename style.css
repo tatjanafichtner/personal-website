@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Glory:wght@300&display=swap");
+
+body {
+  background-color: rgb(130, 111, 85);
+  font-family: "Glory", sans-serif;
+}
+
+.flex-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+header {
+  display: flex;
+}
+
+.header-pic {
+  position: relative;
+  size: 0, 25fr;
+  border-radius: 12px;
+}
+
+.page-title {
+  position: absolute;
+  top: 480px;
+  left: 30px;
+  margin: 0;
+  color: rgb(188, 188, 174);
+  font-size: 4rem;
+}
+
+.prelude {
+    font-size: 2rem;
+    font-weight: bolder;
+    color: #4a3829;
+}
+
+button {
+  background-color: rgb(188, 188, 174);
+  border: none;
+  padding: 1rem;
+  margin-right: 0.5rem;
+  font-size: 16px;
+  border-radius: 12px;
+  transition-duration: 0.4s;
+}
+
+h2 {
+    color:rosybrown;
+}
+
+hr {
+  border-color: #4a3829;
+}
+
+.buttons-flex {
+  display: flex;
+  justify-content: flex-start;
+  padding: 0;
+}
+
+.buttons-flex li {
+  list-style-type: none;
+}
+
+button:hover {
+  background-color: rosybrown;
+}
+
+*/size doesn't work yet*/
+.SoMe {
+    size: 1rem;
+}
